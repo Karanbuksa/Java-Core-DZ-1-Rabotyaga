@@ -8,12 +8,3 @@ public class Main {
 
 }
 
-@FunctionalInterface
-interface OnTaskDoneListener {
-    void onDone(String result);
-}
-
-@FunctionalInterface
-interface OnTaskErrorListener {
-    void onError(String result);
-}
